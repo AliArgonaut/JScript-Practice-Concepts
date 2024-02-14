@@ -1,0 +1,1 @@
+this tutorial works with the document.getElementByID method, console.log(), buttons and inputs

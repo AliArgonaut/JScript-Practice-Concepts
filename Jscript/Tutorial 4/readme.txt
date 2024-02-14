@@ -1,0 +1,1 @@
+this is a random number generator. uses Math.random() method.
