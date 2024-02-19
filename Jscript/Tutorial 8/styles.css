@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010104;
+  color: #ebe9fc;
+  display: flex;
+  margin-top: 30vh;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.main {
+  background-color: #3a31d8;
+  text-align: center;
+  padding: 5rem;
+  box-shadow: #020024 9px;
+  border-radius: 30px;
+  width: 33%;
+  height: 200px;
+}

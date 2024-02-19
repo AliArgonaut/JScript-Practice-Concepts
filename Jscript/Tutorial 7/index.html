@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Random Password Generator</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Password.Gen</h1>
+    <div id="selectioncontainer">
+      <div id="numbox">
+        <label for="numbers">Numbers</label>
+        <input id="numOfnums" name="numbers" type="number" />
+      </div>
+      <div id="letbox">
+        <label for="letters">Letters</label>
+        <input id="numOflets" name="letters" type="number" />
+      </div>
+      <div id="spcbox">
+        <label for="special">Special </label>
+        <input id="numOfspc" type="number" name="special" />
+      </div>
+    </div>
+    <div id="submitoutput">
+      <button id="submit" type="submit" onclick="generate()">GO!</button>
+      <h2 id="producttextbox"></h2>
+    </div>
+  </body>
+</html>
